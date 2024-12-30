@@ -55,6 +55,7 @@ struct ContentView: View {
             Text("App chose \(appChoice)")
                 .font(.largeTitle)
                 .fontWeight(.bold)
+                .foregroundStyle(.pink)
 
             Text("You must \(prompt)")
                 .font(.title2)
